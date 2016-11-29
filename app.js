@@ -25,3 +25,14 @@ var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
 } else {
    alert('Really again? It is still a yes or no answer');
 }
+
+var interaction3 = prompt('When I was 10 did I fell 3 stories into a pile of leaves?');
+ if (interaction3 === 'yes' || interaction3 === 'y') {
+   alert('Hell no that would hurt! Pay me  $100');
+ }
+ else if (interaction3 === 'no' || interaction3 === 'n') {
+   alert('You are correct! ');
+ }
+ else {
+   prompt('It is still a yes or no answer......');
+ }
