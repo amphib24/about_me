@@ -11,12 +11,11 @@ var response1 = prompt ("Do I watch sports?")*/
 var interaction1 = prompt( 'Do I watch football?').toLowerCase();
  if (interaction1 === 'yes' || interaction1 === 'y') {
    alert(' Wrong answer yo!');
-   else if (interaction1 === 'no' || interaction1 === 'n'){
+ }else if (interaction1 === 'no' || interaction1 === 'n'){
     alert('You are correct, you know me so well ;) ');
-}
-
 } else {
-}   alert('It is a yes or no response there ace.');
+   alert('It is a yes or no response there ace.');
+}
 
 var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
  if (interaction2 === 'yes' || interaction2 === 'y') {
