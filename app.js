@@ -9,6 +9,7 @@ Useful and descriptive console.log() messages in the JS are well written
  and correctly displaying to the browser console for each response of the guessing game.
 var response1 = prompt ("Do I watch sports?")*/
 var interaction1 = prompt( 'Do I watch football?').toLowerCase();
+/*answer = n*/
  if (interaction1 === 'yes' || interaction1 === 'y') {
    alert(' Wrong answer yo!');
  }else if (interaction1 === 'no' || interaction1 === 'n'){
@@ -18,21 +19,30 @@ var interaction1 = prompt( 'Do I watch football?').toLowerCase();
 }
 
 var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
+/*answer = yes*/
  if (interaction2 === 'yes' || interaction2 === 'y') {
   alert('I have indeed! Twice actually.');
 } else if (interaction2 === 'no' || interaction2 === 'n'){
   alert(' Guess again sucka! ');
 } else {
-   alert('Really again? It is still a yes or no answer');
+  alert('Really again? It is still a yes or no answer');
 }
 
-var interaction3 = prompt('When I was 10 did I fell 3 stories into a pile of leaves?');
+var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of leaves?').toLowercase();
+/*answer = no*/
  if (interaction3 === 'yes' || interaction3 === 'y') {
    alert('Hell no that would hurt! Pay me  $100');
- }
- else if (interaction3 === 'no' || interaction3 === 'n') {
+ } else if (interaction3 === 'no' || interaction3 === 'n') {
    alert('You are correct! ');
- }
- else {
+ } else {
    prompt('It is still a yes or no answer......');
  }
+  var interaction4 = prompt('Have I ever played connect four with a bartender in Thailand?').toLowercase();
+  if (interaction4 === 'yes' || interaction4 === 'y'){
+    alert('I sure have. Winner got free drinks... she won everytime');
+ }  else if (interaction4 === 'no' || interaction4 === 'n'){
+    alert('Seems strange but I did!');
+ } else {
+  alert('Please answer yes or no.');
+ }
+ var interaction5 = prompt('')
