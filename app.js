@@ -1,13 +1,5 @@
 'use strict';
-/* Design a guessing game about you that involves FIVE yes/no responses. Be creative
-and fun and whimsical. Or not. It's up to you! It's your project!
-The responses in the guessing game must require a mix of yes/no answers,
-and user input must accept either y/n or yes/no responses, with either
-.toUpperCase() or .toLowerCase() used to validate the user input
-and accommodate users entering all-caps Y/N or YES/NO answers, too.
-Useful and descriptive console.log() messages in the JS are well written
- and correctly displaying to the browser console for each response of the guessing game.
-var response1 = prompt ("Do I watch sports?")*/
+
 var interaction1 = prompt( 'Do I watch football?').toLowerCase();
 /*answer = n*/
  if (interaction1 === 'yes' || interaction1 === 'y') {
@@ -38,6 +30,7 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
    prompt('It is still a yes or no answer......');
  }
   var interaction4 = prompt('Have I ever played connect four with a bartender in Thailand?').toLowercase();
+  /* answer = yes*/
   if (interaction4 === 'yes' || interaction4 === 'y'){
     alert('I sure have. Winner got free drinks... she won everytime');
  }  else if (interaction4 === 'no' || interaction4 === 'n'){
@@ -45,4 +38,12 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
  } else {
   alert('Please answer yes or no.');
  }
- var interaction5 = prompt('')
+ var interaction5 = prompt(' Have I ever completed college?').toLowercase();
+ /* answer = no*/
+  if (interaction5 === 'yes' || interaction5 === 'y') {
+    alert('No. I always ended up getting bored.');
+  }else if(interaction5 === 'no' || interaction5 === 'n'){
+    alert( 'Great guess. You get a participation medal!')
+  } else {
+alert('Answer with some form of yes or no.');
+  }
