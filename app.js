@@ -59,5 +59,26 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
 alert('Answer with some form of yes or no.');
   }
   console.log('The user answered' + ' ' + interaction5 + ' ' + 'to the fifth interaction');
+/* space between variable*/
+var myNumber = 72;
+for ( var i = 0; i < 4; i++) {
+  var guess = parseInt( prompt('Please guess a number between 1 and 80! '));
+  if (guess < myNumber) {
+    alert('Sorry but that is too low! Please try again');
+  }
+  if (guess > myNumber) {
+    alert('doink!!! Too high. Please try again. ');
+  }
+  if (guess === myNumber) {
+    alert('Great guess! You get a participation medal! ')
+    i=4;
+  }
+  if ( i === 3){
+   alert('Me so sorry but you are out of guesses. Feel free to refresh the page and try again. ');
+  }
+}
+console.log('User finished guessing game.');
+/*space between questions*/
+
   /*closing alert*/
-  var closingStatement = alert('MIND BLOWN! Thanks for taking time to play. Please take sometime to read through my page to learn more about my professinal goals and history. ');
+var closingStatement = alert('MIND BLOWN! Thanks for taking time to play. Please take sometime to read through my page to learn more about my professinal goals and history. ');
