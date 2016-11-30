@@ -2,23 +2,19 @@
 
 header {
   background-image:url(https://s-media-cache-ak0.pinimg.com/236x/80/27/9a/80279a4073bc38976246cebf97a222b8.jpg);
-   border: 3px ridge #000000;
-
+  border: 3px ridge #000000;
+  opacity: .3;
  }
- body {
-
-
-}
-h1 {
+ h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   text-decoration: underline;
 }
-h2 {
+ h2 {
   font-family: 'Pacifico',cursive;
   text-decoration: underline;
 }
-ul {
+ ul {
   list-style-type: georgian;
   display: grid;
   border-top: 3px black;
