@@ -1,9 +1,12 @@
-body {
-  background-color: #42d7d7;
-}
+
+
 header {
-  background-color: #008b8b;
-   border: 1px solid;
+  background-image:url(https://s-media-cache-ak0.pinimg.com/236x/80/27/9a/80279a4073bc38976246cebf97a222b8.jpg);
+   border: 3px ridge #000000;
+
+ }
+ body {
+
 
 }
 h1 {
