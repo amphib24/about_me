@@ -1,4 +1,13 @@
-* {
-  outline: 1px dotted orange;
-  color: blue,];
+body {
+  background-color: #42d7d7;
+}
+header {
+  background-color: #008b8b;
+   border: 1px solid;
+
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-decoration: underline;
 }
