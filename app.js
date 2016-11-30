@@ -9,6 +9,8 @@ var interaction1 = prompt( 'Do I watch football?').toLowerCase();
 } else {
    alert('It is a yes or no response there ace.');
 }
+console.log('The user answered' + interaction1 + 'to the fourth interaction');
+/* space between variables*/
 
 var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
 /*answer = yes*/
@@ -19,8 +21,10 @@ var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
 } else {
   alert('Really again? It is still a yes or no answer');
 }
+console.log('The user answered' + interaction2 + 'to the fourth interaction');
+/*space between variables*/
 
-var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of leaves?').toLowercase();
+var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of leaves?').toLowerCase();
 /*answer = no*/
  if (interaction3 === 'yes' || interaction3 === 'y') {
    alert('Hell no that would hurt! Pay me  $100');
@@ -29,7 +33,10 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
  } else {
    prompt('It is still a yes or no answer......');
  }
-  var interaction4 = prompt('Have I ever played connect four with a bartender in Thailand?').toLowercase();
+ console.log('The user answered' + interaction3 + 'to the fourth interaction');
+ /* space between variables*/
+
+  var interaction4 = prompt('Have I ever played connect four with a bartender in Thailand?').toLowerCase();
   /* answer = yes*/
   if (interaction4 === 'yes' || interaction4 === 'y'){
     alert('I sure have. Winner got free drinks... she won everytime');
@@ -38,7 +45,10 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
  } else {
   alert('Please answer yes or no.');
  }
- var interaction5 = prompt(' Have I ever completed college?').toLowercase();
+ console.log('The user answered' + interaction4 + 'to the fourth interaction');
+ /* space between variables*/
+
+ var interaction5 = prompt(' Have I ever completed college?').toLowerCase();
  /* answer = no*/
   if (interaction5 === 'yes' || interaction5 === 'y') {
     alert('No. I always ended up getting bored.');
@@ -47,3 +57,4 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
   } else {
 alert('Answer with some form of yes or no.');
   }
+  console.log('The user answered' + interaction5 + 'to the fourth interaction');
