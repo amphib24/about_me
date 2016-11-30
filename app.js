@@ -9,7 +9,7 @@ var interaction1 = prompt( 'Do I watch football?').toLowerCase();
 } else {
    alert('It is a yes or no response there ace.');
 }
-console.log('The user answered' + interaction1 + 'to the fourth interaction');
+console.log('The user answered' + ' ' + interaction1 + ' ' + 'to the fourth interaction');
 /* space between variables*/
 
 var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
@@ -21,7 +21,7 @@ var interaction2 = prompt(' Have I been to Indonesia? ').toLowerCase();
 } else {
   alert('Really again? It is still a yes or no answer');
 }
-console.log('The user answered' + interaction2 + 'to the fourth interaction');
+console.log('The user answered' + ' ' + interaction2 + ' ' + 'to the fourth interaction');
 /*space between variables*/
 
 var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of leaves?').toLowerCase();
@@ -33,7 +33,7 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
  } else {
    prompt('It is still a yes or no answer......');
  }
- console.log('The user answered' + interaction3 + 'to the fourth interaction');
+ console.log('The user answered' + ' ' + interaction3 + ' ' + 'to the fourth interaction');
  /* space between variables*/
 
   var interaction4 = prompt('Have I ever played connect four with a bartender in Thailand?').toLowerCase();
@@ -45,7 +45,7 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
  } else {
   alert('Please answer yes or no.');
  }
- console.log('The user answered' + interaction4 + 'to the fourth interaction');
+ console.log('The user answered' + ' ' + interaction4 + ' ' + 'to the fourth interaction');
  /* space between variables*/
 
  var interaction5 = prompt(' Have I ever completed college?').toLowerCase();
@@ -57,4 +57,4 @@ var interaction3 = prompt('When I was 10 did I fall 3 stories into a pile of lea
   } else {
 alert('Answer with some form of yes or no.');
   }
-  console.log('The user answered' + interaction5 + 'to the fourth interaction');
+  console.log('The user answered' + ' ' + interaction5 + ' ' + 'to the fourth interaction');
