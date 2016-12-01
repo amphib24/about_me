@@ -66,6 +66,7 @@ alert('Answer with some form of yes or no.');
   }
   console.log('The user answered' + ' ' + interaction5 + ' ' + 'to the fifth interaction');
 /* space between variable*/
+
 var myNumber = 72;
 for ( var i = 0; i < 4; i++) {
   var guess = parseInt( prompt('Please guess a number between 1 and 80! '));
