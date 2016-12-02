@@ -63,8 +63,11 @@ p.career {
   border-bottom: 3px black;
   border-bottom-style: dashed;
 }
-table,td {
-  position: relative;
+table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+table td {
   border: #000000 3px solid;
 	background-color: #acd1b2;
 }
