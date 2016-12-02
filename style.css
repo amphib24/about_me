@@ -3,9 +3,12 @@
 header {
   background-image:url(https://s-media-cache-ak0.pinimg.com/236x/80/27/9a/80279a4073bc38976246cebf97a222b8.jpg);
   border: 3px ridge #000000;
-  opacity: .3;
+  opacity: .8;
  }
- h1 {
+ body {
+   background-color: #8FBC8F;
+ }
+  h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   text-decoration: underline;
@@ -26,7 +29,7 @@ header {
   border-bottom: 3.5px solid #008b8b;
   border-bottom-style: ridge;
 }
-p.employment {
+.employment {
   border-top: 3.5px solid #008b8b;
   border-top-style: ridge;
   border-right: 4px solid #008b8b;
@@ -35,7 +38,6 @@ p.employment {
   border-left-style: dashed;
   border-bottom: 3px black;
   border-bottom-style: dashed;
-
 }
 p.edu {
  border-top: 3px black;
