@@ -13,10 +13,7 @@ header {
   text-align: center;
   text-decoration: underline;
 }
- h2 {
-  font-family: 'Pacifico',cursive;
-  text-decoration: underline;
-}
+
  ul {
   list-style-type: georgian;
   display: grid;
@@ -58,4 +55,8 @@ p.career {
   border-left-style: dashed;
   border-bottom: 3px black;
   border-bottom-style: dashed;
+}
+table,td {
+	border: #000000 3px solid;
+	background-color: #acd1b2;
 }
