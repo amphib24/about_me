@@ -1,14 +1,24 @@
 
 
 header {
-  background-image:url(https://s-media-cache-ak0.pinimg.com/236x/80/27/9a/80279a4073bc38976246cebf97a222b8.jpg);
   border: 3px ridge #000000;
-  opacity: .8;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/236x/80/27/9a/80279a4073bc38976246cebf97a222b8.jpg);
+}
+ .background {
+  z-index: -999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/5c/11/33/5c113342692d764f4e38b75d54879fbb.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.4;
+  background-position: center;
  }
- body {
-   background-color: #8FBC8F;
- }
-  h1 {
+h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   text-decoration: underline;
@@ -19,15 +29,16 @@ h2 {
   text-decoration: underline;
 }
  ul {
+   /*color: #808080;*/
   list-style-type: georgian;
   display: grid;
-  border-top: 3px black;
-  border-top-style: dashed;
-  border-right: 2px black;
-  border-right-style: dashed;
-  border-left: 4px solid #008b8b;
+  border-top: 3.5px solid #008b8b;
+  border-top-style: ridge;
+  border-right: 4px solid #008b8b;
+  border-right-style: groove;
+  border-left: 4px solid #008b8b;;
   border-left-style: groove;
-  border-bottom: 3.5px solid #008b8b;
+  border-bottom: 4px solid #008b8b;;
   border-bottom-style: ridge;
 }
 .underline {
@@ -38,30 +49,30 @@ h2 {
   border-top-style: ridge;
   border-right: 4px solid #008b8b;
   border-right-style: groove;
-  border-left: 2px black;
-  border-left-style: dashed;
-  border-bottom: 3px black;
-  border-bottom-style: dashed;
+  border-left: 4px solid #008b8b;;
+  border-left-style: groove;
+  border-bottom: 4px solid #008b8b;;
+  border-bottom-style: ridge;
 }
 p.edu {
- border-top: 3px black;
- border-top-style: dashed;
- border-right: 2px black;
- border-right-style: dashed;
- border-left: 4px solid #008b8b;
- border-left-style: groove;
- border-bottom: 3.5px solid #008b8b;
- border-bottom-style: ridge;
+  border-top: 3.5px solid #008b8b;
+  border-top-style: ridge;
+  border-right: 4px solid #008b8b;
+  border-right-style: groove;
+  border-left: 4px solid #008b8b;;
+  border-left-style: groove;
+  border-bottom: 4px solid #008b8b;;
+  border-bottom-style: ridge;
 }
 p.career {
   border-top: 3.5px solid #008b8b;
   border-top-style: ridge;
   border-right: 4px solid #008b8b;
   border-right-style: groove;
-  border-left: 2px black;
-  border-left-style: dashed;
-  border-bottom: 3px black;
-  border-bottom-style: dashed;
+  border-left: 4px solid #008b8b;;
+  border-left-style: groove;
+  border-bottom: 4px solid #008b8b;;
+  border-bottom-style: ridge;
 }
 table {
   max-width: 600px;
@@ -69,11 +80,15 @@ table {
 }
 table td {
   border: #000000 3px solid;
-	background-color: #acd1b2;
+	background-color: white;
+
 }
 footer {
   position: relative;
-  width: 100%
+  width: 100%;
+}
+#footermsg {
+  text-align: center;
 }
 #LeftFootPic {
   float:left;
