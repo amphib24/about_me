@@ -88,6 +88,12 @@ table td {
   border: #000000 3px solid;
 	background-color: white;
 }
+div, iframe {
+  width: 560;
+  height: 315;
+  margin: 0 auto;
+  display: block;
+}
 footer {
   position: relative;
   width: 100%;
