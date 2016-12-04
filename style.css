@@ -29,6 +29,11 @@ h2 {
   text-align: left;
   text-decoration: underline;
 }
+h3 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-decoration: underline
+}
  ul {
    /*color: #808080;*/
   list-style-type: georgian;
@@ -82,14 +87,10 @@ table {
 table td {
   border: #000000 3px solid;
 	background-color: white;
-
 }
 footer {
   position: relative;
   width: 100%;
-}
-#footermsg {
-  text-align: center;
 }
 #LeftFootPic {
   float:left;
